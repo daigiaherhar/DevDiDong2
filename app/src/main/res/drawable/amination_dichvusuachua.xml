@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/hinh1_dvsc" android:duration="200"/>
+    <item android:drawable="@drawable/hinh2_dvsc" android:duration="200"/>
+    <item android:drawable="@drawable/hinh3_dvsc" android:duration="200"/>
+    <item android:drawable="@drawable/hinh4_dvsc" android:duration="200"/>
+    <item android:drawable="@drawable/hinh5_dvsc" android:duration="200"/>
+
+</animation-list>

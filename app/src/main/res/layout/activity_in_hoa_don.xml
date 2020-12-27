@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GiaoDien.InHoaDon"
+    android:orientation="vertical">
+    <TextView
+        style="@style/tieude"
+        android:text="Báo cáo sửa chữa" />
+
+<!--    <ListView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"></ListView>-->
+<!--    <ImageView-->
+<!--&lt;!&ndash;        &ndash;&gt;-->
+<!--        style="@style/img"-->
+<!--        android:layout_width="390dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:src="@drawable/cothexoa"></ImageView>-->
+</LinearLayout>

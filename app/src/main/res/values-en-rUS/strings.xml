@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dịch vụ sửa chữa</string>
+    <string name="infouser">Infomation</string>
+    <string name="danhsachkh">Infomation</string>
+    <string name="phieusuachua">Infomation</string>
+    <string name="makh">Infomation</string>
+    <string name="tenkh">Infomation</string>
+    <string name="ngaysinh">Infomation</string>
+    <string name="diachi">Infomation</string>
+    <string name="gioitinh">Infomation</string>
+    <string name="dichvu">Infomation</string>
+    <string name="caiwin">Infomation</string>
+    <string name="suamain">Infomation</string>
+    <string name="suacpu">Infomation</string>
+    <string name="suabanphim">Infomation</string>
+    <string name="btnThem">Infomation</string>
+    <string name="suachuot">Infomation</string>
+    <string name="btnXoa">Infomation</string>
+    <string name="btnSua">Infomation</string>
+    <string name="btnXem">Infomation</string>
+    <string name="btnLamSach">Infomation</string>
+    <string name="madv">Infomation</string>
+    <string name="tendv">Infomation</string>
+    <string name="gia">Infomation</string>
+    <string name="soluong">Infomation</string>
+    <string name="hinhanh">Infomation</string>
+</resources>

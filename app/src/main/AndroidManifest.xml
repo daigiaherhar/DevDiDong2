@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.doan">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_logo_nhom"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_logo_nhom_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".GiaoDien.TaoPhieu_MuaHang" />
+        <activity android:name=".GiaoDien.ChiTietDichVu" />
+        <activity android:name=".GiaoDien.Loading" />
+        <activity android:name=".GiaoDien.InHoaDon" />
+        <activity android:name=".GiaoDien.PhieuSuaChua" /> <!-- <activity android:name=".GiaoDien.DichVu"></activity> -->
+        <activity android:name=".GiaoDien.DanhSachKH" />
+        <activity android:name=".GiaoDien.ChiTiecKhachHang" />
+        <activity android:name=".GiaoDien.KhachHang" />
+        <activity android:name=".GiaoDien.MainRecyclerView" />
+        <activity android:name=".GiaoDien.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".GiaoDien.DichVu"
+            android:label="Thêm dịch vụ"
+            android:parentActivityName=".GiaoDien.MainActivity" />
+
+        <receiver
+            android:name=".ThuVien.MyAdmin"
+            android:permission="android.permission.BIND_DEVICE_ADMIN">
+            <meta-data
+                android:name="android.app.device_admin"
+                android:resource="@xml/policies" />
+
+            <intent-filter>
+                <action android:name="android.app.action.DEVICE_ADMIN_ENABLED" />
+            </intent-filter>
+        </receiver>
+    </application>
+
+</manifest>

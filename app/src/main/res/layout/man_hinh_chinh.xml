@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/infouser" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textview"
+            android:text="@string/makh"></TextView>
+
+        <EditText
+            style="@style/edittext"
+            android:id="@+id/txtMaKH"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textview"
+            android:text="@string/tenkh"></TextView>
+
+        <EditText
+            style="@style/edittext"
+            android:id="@+id/txtTenKH"></EditText>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textview"
+            android:text="@string/ngaysinh"></TextView>
+
+        <EditText
+            style="@style/edittext"
+            android:id="@+id/txtNgaySinh"></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textview"
+            android:text="@string/diachi"></TextView>
+
+        <EditText
+            style="@style/edittext"
+            android:id="@+id/txtDiaChi"></EditText>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <Button
+            style="@style/btn"
+            android:text="Tạo phiếu mua hàng"
+            android:id="@+id/btnThem"></Button>
+
+        <Button
+            style="@style/btn"
+            android:text="Tìm kiếm"
+            android:id="@+id/btnTimKiemKH"
+            android:background="@drawable/themthem_select"></Button>
+    </LinearLayout>
+
+</LinearLayout>

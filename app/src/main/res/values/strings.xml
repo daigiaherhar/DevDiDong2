@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Dịch vụ sửa chữa</string>
+
+    <string name="infouser">Thông tin khách hàng</string>
+
+    <string name="danhsachkh">Danh sách khách hàng</string>
+    <string name="phieusuachua">Các phiểu sữa chữa</string>
+    <string name="makh">Mã khách hàng</string>
+    <string name="tenkh">Tên khách hàng</string>
+    <string name="ngaysinh">Ngày sinh</string>
+    <string name="diachi">Địa chỉ</string>
+    <string name="gioitinh">Giới tính</string>
+    <string name="madv">Mã dịch vụ</string>
+    <string name="tendv">Tên dịch vụ</string>
+    <string name="gia">Đơn giá</string>
+    <string name="soluong">Số lượng</string>
+    <string name="hinhanh">Hình ảnh</string>
+
+
+    <string name="dichvu">Dịch vụ</string>
+    <string name="caiwin">Cài win</string>
+    <string name="suamain">Sữa main</string>
+    <string name="suacpu">Sữa CPU</string>
+    <string name="suabanphim">Sữa bàn phím</string>
+    <string name="suachuot">Sữa chuột</string>
+
+    <string name="btnThem">Thêm</string>
+    <string name="btnXoa">Xóa</string>
+    <string name="btnSua">Sửa</string>
+    <string name="btnXem">Xem</string>
+    <string name="btnLamSach">Làm sạch</string>
+
+</resources>

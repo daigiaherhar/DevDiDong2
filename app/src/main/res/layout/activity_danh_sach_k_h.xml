@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".GiaoDien.DanhSachKH">
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></androidx.viewpager.widget.ViewPager>
+
+    <TextView
+        style="@style/tieude"
+        android:text="@string/danhsachkh" />
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content">-->
+
+<!--        <TextView-->
+<!--            android:layout_width="100dp"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:gravity="center"-->
+<!--            android:text="Tìm kiếm"></TextView>-->
+
+<!--        <EditText-->
+<!--            android:id="@+id/txtTimKiem"-->
+<!--            android:layout_width="221dp"-->
+<!--            android:layout_height="match_parent"></EditText>-->
+
+<!--        <Button-->
+<!--            android:layout_width="50dp"-->
+<!--            android:layout_height="match_parent"-->
+
+<!--            android:drawableRight="@drawable/ic_search_black_24dp"-->
+<!--            android:background="@drawable/themthem_select"-->
+<!--            android:id="@+id/btnTimKiem"></Button>-->
+
+<!--    </LinearLayout>-->
+
+<!--    <GridView-->
+<!--        android:id="@+id/GVKhachHang"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:numColumns="2" />-->
+
+
+</LinearLayout>
